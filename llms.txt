@@ -1,0 +1,18 @@
+# BooyahEsports — Official Free Fire Tournament Platform & APK
+
+> BooyahEsports (booyahesports.com) is the leading esports tournament mobile app and web platform for Free Fire battle royale players. It offers automated custom rooms, anti-cheat protection, live leaderboard tracking, and instant cash prize withdrawals via UPI and Paytm.
+
+## Core Services & Features
+- **Official APK Download**: Free & safe direct download of BooyahEsports APK (Version 1.109.1, Size ~705MB, Android 5.0+).
+- **Free Fire Tournaments**: Daily Solo, Duo, Squad, and Clash Squad custom matches.
+- **Automated Custom Rooms**: Room ID and Password auto-delivered 15 minutes before match start.
+- **Anti-Cheat & Fair Play**: Server-side anti-cheat verification guaranteeing anti-ban compliance.
+- **Instant Rewards & Payouts**: Guaranteed prize cash and Free Fire Diamonds sent straight to local wallets/UPI.
+
+## Essential Links
+- [Official Download APK Page](https://booyahesports.com/index.html)
+- [Live Leaderboard & Standings](https://booyahesports.com/leaderboard.html)
+- [Features & Anti-Cheat System](https://booyahesports.com/features.html)
+- [About BooyahEsports](https://booyahesports.com/about.html)
+- [Support Center & FAQ](https://booyahesports.com/support.html)
+- [Full Documentation & Direct Answers](https://booyahesports.com/llms-full.txt)
