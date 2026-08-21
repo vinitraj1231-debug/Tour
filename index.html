@@ -34,7 +34,7 @@
     "alternateName": ["Booyah Esports", "Booyah Esports Free Fire App"],
     "operatingSystem": "ANDROID 5.0 and up",
     "applicationCategory": "GameApplication",
-    "downloadUrl": "https://booyahesports.com/assets/booyah-esports.apk",
+    "downloadUrl": "https://booyahesports.com/download.html",
     "fileSize": "705MB",
     "softwareVersion": "1.109.1",
     "offers": {
@@ -96,7 +96,7 @@
       <a href="features.html">FEATURES</a>
       <a href="support.html">SUPPORT</a>
     </nav>
-    <a class="top-download" href="assets/booyah-esports.apk" download>⇩ &nbsp; DOWNLOAD APK</a>
+    <a class="top-download" href="download.html">⇩ &nbsp; DOWNLOAD APK</a>
   </div>
 </header>
 
@@ -117,7 +117,7 @@
         </div>
 
         <div class="hero-actions">
-          <a class="btn btn-primary" href="assets/booyah-esports.apk" download>⬇ DOWNLOAD APK <small>Version 1.109.1 • Official • Size: 705 MB</small></a>
+          <a class="btn btn-primary" href="download.html">⬇ DOWNLOAD APK <small>Version 1.109.1 • Official • Size: 705 MB</small></a>
           <a class="btn btn-ghost" href="#install">? &nbsp; HOW TO INSTALL?</a>
         </div>
         <div class="android-note">◉ Compatible with Android 5.0+ | Anti-Ban System Enabled</div>
@@ -147,7 +147,136 @@
   </section>
 
   <!-- Gameplay Preview -->
-  <section class="section tight">
+    <!-- Tournament Preview Cards -->
+  <section class="section">
+    <div class="container">
+      <div class="section-heading"><span></span><h2>LIVE &amp; UPCOMING TOURNAMENT PREVIEW</h2><span></span></div>
+
+      <div style="display: flex; justify-content: center; gap: 10px; margin-bottom: 20px;" class="tourney-filters">
+        <button class="tab tourney-tab active" data-filter="all">ALL MATCHES</button>
+        <button class="tab tourney-tab" data-filter="solo">SOLO BR</button>
+        <button class="tab tourney-tab" data-filter="squad">SQUAD CUP</button>
+        <button class="tab tourney-tab" data-filter="cs">CLASH SQUAD</button>
+      </div>
+
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(310px, 1fr)); gap: 18px;" id="tourneyGrid">
+
+        <!-- Card 1 -->
+        <article class="card tourney-card" data-type="squad" style="border: 1px solid #4f2282; padding: 18px; border-radius: 10px; background: linear-gradient(180deg, rgba(24, 10, 46, 0.95), rgba(11, 5, 23, 0.98)); transition: 0.25s;">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
+            <span style="background: linear-gradient(90deg, #821ef0, #a92eff); color: #fff; font: 700 11px Rajdhani, sans-serif; padding: 3px 10px; border-radius: 4px; letter-spacing: 0.5px;">SQUAD BATTLE ROYALE</span>
+            <span style="color: #00ff88; font: 700 11px Rajdhani, sans-serif; display: flex; align-items: center; gap: 4px;">● LIVE REGISTRATION</span>
+          </div>
+          <h3 style="font: 700 18px Rajdhani, sans-serif; color: #fff; margin: 0 0 6px;">BERMUDA PRO SQUAD CHAMPIONSHIP</h3>
+          <p style="font-size: 11px; color: #a89bb3; margin: 0 0 14px;">Map: Bermuda • Mode: Squad (4v4) • Time: Daily 8:00 PM IST</p>
+
+          <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; background: rgba(10, 4, 20, 0.7); padding: 10px; border-radius: 6px; text-align: center; margin-bottom: 14px; border: 1px solid #2d1848;">
+            <div>
+              <small style="font-size: 9px; color: #8e8299; display: block;">PRIZE POOL</small>
+              <strong style="font: 700 15px Rajdhani, sans-serif; color: #ffcb3c;">₹5,000</strong>
+            </div>
+            <div>
+              <small style="font-size: 9px; color: #8e8299; display: block;">PER KILL</small>
+              <strong style="font: 700 15px Rajdhani, sans-serif; color: #d78eff;">₹40</strong>
+            </div>
+            <div>
+              <small style="font-size: 9px; color: #8e8299; display: block;">ENTRY FEE</small>
+              <strong style="font: 700 15px Rajdhani, sans-serif; color: #00e5ff;">₹50 / Squad</strong>
+            </div>
+          </div>
+
+          <div style="margin-bottom: 14px;">
+            <div style="display: flex; justify-content: space-between; font-size: 10px; color: #b0a4bb; margin-bottom: 4px;">
+              <span>Slots Filled</span>
+              <span><strong>42</strong> / 48 Teams</span>
+            </div>
+            <div style="width: 100%; height: 6px; background: #1c0f30; border-radius: 3px; overflow: hidden; border: 1px solid #331a54;">
+              <div style="width: 87.5%; height: 100%; background: linear-gradient(90deg, #7c1df0, #d34bff); border-radius: 3px;"></div>
+            </div>
+          </div>
+
+          <a href="download.html" class="btn btn-primary" style="width: 100%; text-align: center; justify-content: center; font-size: 12px; padding: 9px;">JOIN MATCH IN APP</a>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="card tourney-card" data-type="solo" style="border: 1px solid #4f2282; padding: 18px; border-radius: 10px; background: linear-gradient(180deg, rgba(24, 10, 46, 0.95), rgba(11, 5, 23, 0.98)); transition: 0.25s;">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
+            <span style="background: linear-gradient(90deg, #d31ef0, #ff2eb4); color: #fff; font: 700 11px Rajdhani, sans-serif; padding: 3px 10px; border-radius: 4px; letter-spacing: 0.5px;">SOLO SURVIVOR</span>
+            <span style="color: #00ff88; font: 700 11px Rajdhani, sans-serif; display: flex; align-items: center; gap: 4px;">● REGISTRATION OPEN</span>
+          </div>
+          <h3 style="font: 700 18px Rajdhani, sans-serif; color: #fff; margin: 0 0 6px;">NEXTERRA SOLO WARRIORS</h3>
+          <p style="font-size: 11px; color: #a89bb3; margin: 0 0 14px;">Map: Nexterra • Mode: Solo BR • Time: Daily 6:00 PM IST</p>
+
+          <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; background: rgba(10, 4, 20, 0.7); padding: 10px; border-radius: 6px; text-align: center; margin-bottom: 14px; border: 1px solid #2d1848;">
+            <div>
+              <small style="font-size: 9px; color: #8e8299; display: block;">PRIZE POOL</small>
+              <strong style="font: 700 15px Rajdhani, sans-serif; color: #ffcb3c;">₹1,500</strong>
+            </div>
+            <div>
+              <small style="font-size: 9px; color: #8e8299; display: block;">PER KILL</small>
+              <strong style="font: 700 15px Rajdhani, sans-serif; color: #d78eff;">₹15</strong>
+            </div>
+            <div>
+              <small style="font-size: 9px; color: #8e8299; display: block;">ENTRY FEE</small>
+              <strong style="font: 700 15px Rajdhani, sans-serif; color: #00e5ff;">FREE ENTRY</strong>
+            </div>
+          </div>
+
+          <div style="margin-bottom: 14px;">
+            <div style="display: flex; justify-content: space-between; font-size: 10px; color: #b0a4bb; margin-bottom: 4px;">
+              <span>Slots Filled</span>
+              <span><strong>38</strong> / 48 Players</span>
+            </div>
+            <div style="width: 100%; height: 6px; background: #1c0f30; border-radius: 3px; overflow: hidden; border: 1px solid #331a54;">
+              <div style="width: 79%; height: 100%; background: linear-gradient(90deg, #d31ef0, #ff2eb4); border-radius: 3px;"></div>
+            </div>
+          </div>
+
+          <a href="download.html" class="btn btn-primary" style="width: 100%; text-align: center; justify-content: center; font-size: 12px; padding: 9px;">JOIN MATCH IN APP</a>
+        </article>
+
+        <!-- Card 3 -->
+        <article class="card tourney-card" data-type="cs" style="border: 1px solid #4f2282; padding: 18px; border-radius: 10px; background: linear-gradient(180deg, rgba(24, 10, 46, 0.95), rgba(11, 5, 23, 0.98)); transition: 0.25s;">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
+            <span style="background: linear-gradient(90deg, #1ea3f0, #2effd5); color: #000; font: 700 11px Rajdhani, sans-serif; padding: 3px 10px; border-radius: 4px; letter-spacing: 0.5px;">CLASH SQUAD (CS)</span>
+            <span style="color: #ffcb3c; font: 700 11px Rajdhani, sans-serif; display: flex; align-items: center; gap: 4px;">⚡ FAST MATCH</span>
+          </div>
+          <h3 style="font: 700 18px Rajdhani, sans-serif; color: #fff; margin: 0 0 6px;">7-ROUND CS ULTIMATE DUEL</h3>
+          <p style="font-size: 11px; color: #a89bb3; margin: 0 0 14px;">Map: CS Random • Mode: 4v4 CS • Time: Every 30 Mins</p>
+
+          <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; background: rgba(10, 4, 20, 0.7); padding: 10px; border-radius: 6px; text-align: center; margin-bottom: 14px; border: 1px solid #2d1848;">
+            <div>
+              <small style="font-size: 9px; color: #8e8299; display: block;">PRIZE POOL</small>
+              <strong style="font: 700 15px Rajdhani, sans-serif; color: #ffcb3c;">₹2,500</strong>
+            </div>
+            <div>
+              <small style="font-size: 9px; color: #8e8299; display: block;">WINNER</small>
+              <strong style="font: 700 15px Rajdhani, sans-serif; color: #d78eff;">₹1,800</strong>
+            </div>
+            <div>
+              <small style="font-size: 9px; color: #8e8299; display: block;">ENTRY FEE</small>
+              <strong style="font: 700 15px Rajdhani, sans-serif; color: #00e5ff;">₹30 / Player</strong>
+            </div>
+          </div>
+
+          <div style="margin-bottom: 14px;">
+            <div style="display: flex; justify-content: space-between; font-size: 10px; color: #b0a4bb; margin-bottom: 4px;">
+              <span>Slots Filled</span>
+              <span><strong>6</strong> / 8 Teams</span>
+            </div>
+            <div style="width: 100%; height: 6px; background: #1c0f30; border-radius: 3px; overflow: hidden; border: 1px solid #331a54;">
+              <div style="width: 75%; height: 100%; background: linear-gradient(90deg, #1ea3f0, #2effd5); border-radius: 3px;"></div>
+            </div>
+          </div>
+
+          <a href="download.html" class="btn btn-primary" style="width: 100%; text-align: center; justify-content: center; font-size: 12px; padding: 9px;">JOIN MATCH IN APP</a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+<section class="section tight">
     <div class="container">
       <div class="section-heading"><span></span><h2>GAMEPLAY &amp; TOURNAMENT PREVIEW</h2><span></span></div>
       <div class="gallery">
@@ -208,7 +337,7 @@
     <div class="cta-banner">
       <img src="assets/cta-art.jpg" alt="" aria-hidden="true">
       <div><h2>READY TO CLAIM YOUR BOOYAH?</h2><p>Download BooyahEsports APK now and start competing in top Free Fire esports leagues!</p></div>
-      <a class="btn btn-primary" href="assets/booyah-esports.apk" download>⬇ DOWNLOAD APK NOW</a>
+      <a class="btn btn-primary" href="download.html">⬇ DOWNLOAD APK NOW</a>
       <small>Size: 705 MB • Version: 1.109.1 • Official Release</small>
     </div>
   </section>
